@@ -1,0 +1,50 @@
+.country {
+  background-color: #555843;
+  text-align: center;
+  height: 23.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.6);
+  transition: all 0.4s;
+  color: rgb(255, 255, 255, 0.9);
+}
+.country:hover {
+  box-shadow: 16px 16px 24px rgb(0, 0, 0, 0.6);
+  background-color: #004225;
+}
+.dasc {
+  text-align: center;
+  padding: 0.5rem;
+}
+.country-img {
+  text-align: center;
+}
+.country img {
+  width: 12rem;
+  height: 6rem;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.6);
+}
+p {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.6);
+}
+.country-deleted-btn {
+  background-color: rgb(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255, 0.9);
+  width: 12rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.6);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.country-deleted-btn:hover {
+  box-shadow: 4px 4px 6px rgb(0, 0, 0, 0.6);
+  background-color: red;
+}
